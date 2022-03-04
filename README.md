@@ -1,7 +1,15 @@
 # @chordcommerce/code-style
 
-## [ESLint](https://eslint.org/)
+## Installation
 
-## [Prettier](https://prettier.io/)
+```sh
+$ npx install-peerdeps --dev @chordcommerce/code-style
+```
 
-## [Editorconfig](https://editorconfig.org/)
+## Tools
+
+### [ESLint](https://eslint.org/)
+
+### [Prettier](https://prettier.io/)
+
+### [Editorconfig](https://editorconfig.org/)

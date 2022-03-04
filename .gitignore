@@ -1,5 +1,6 @@
 # Ignoring the lock file because this is a library
 package-lock.json
+eslint-config/package-lock.json
 
 # Created by https://www.toptal.com/developers/gitignore/api/node
 # Edit at https://www.toptal.com/developers/gitignore?templates=node

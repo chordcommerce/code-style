@@ -1,0 +1,38 @@
+{
+  "name": "@chordcommerce/eslint-config",
+  "version": "0.1.0",
+  "description": "ESLint config for projects at Chord Commerce",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/chordcommerce/code-style.git",
+    "directory": "eslint-config"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig"
+  ],
+  "author": "Chord Commerce",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/chordcommerce/code-style/issues"
+  },
+  "homepage": "https://github.com/chordcommerce/code-style#readme",
+  "devDependencies": {
+    "eslint": "^8.2.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "^2.25.3",
+    "eslint-plugin-jsx-a11y": "^6.5.1",
+    "eslint-plugin-react": "^7.28.0",
+    "eslint-plugin-react-hooks": "^4.3.0",
+    "prettier": "^2.5.1"
+  },
+  "peerDependencies": {
+    "eslint-config-airbnb": "^19.0.4",
+    "prettier": "^2.5.1"
+  }
+}

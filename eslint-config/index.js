@@ -5,7 +5,7 @@
  * @type {import('eslint').Linter.Config}
  */
 module.exports = {
-  extends: ['airbnb', 'prettier'],
+  extends: ['airbnb-base', 'prettier'],
   rules: {
     'import/no-unresolved': 'off',
     'import/named': 1,
@@ -14,5 +14,6 @@ module.exports = {
   },
   env: {
     es6: true,
+    jest: true,
   },
 }

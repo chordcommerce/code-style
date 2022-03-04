@@ -72,3 +72,7 @@ $ yarn add -D typescript @typescript-eslint/parser @typescript-eslint/eslint-plu
   "extends": ["@chordcommerce/typescript"]
 }
 ```
+
+### Next
+
+TBD

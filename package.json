@@ -10,8 +10,10 @@
     "registry": "https://npm.pkg.github.com/"
   },
   "workspaces": [
-    "eslint-config"
+    "eslint-config",
+    "prettier"
   ],
   "author": "Chord Commerce",
-  "license": "UNLICENSED"
+  "license": "UNLICENSED",
+  "prettier": "@chordcommerce/prettier"
 }

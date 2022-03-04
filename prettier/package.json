@@ -1,0 +1,26 @@
+{
+  "name": "@chordcommerce/prettier",
+  "version": "1.0.0",
+  "description": "prettier config for Chord Commerce",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/chordcommerce/code-style.git",
+    "directory": "prettier"
+  },
+  "keywords": [
+    "prettier"
+  ],
+  "author": "Chord Commerce",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/chordcommerce/code-style/issues"
+  },
+  "homepage": "https://github.com/chordcommerce/code-style#readme",
+  "peerDependencies": {
+    "prettier": "^2.5.1"
+  }
+}

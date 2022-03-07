@@ -7,10 +7,13 @@
 module.exports = {
   extends: ['airbnb-base', 'prettier'],
   rules: {
-    'import/no-unresolved': 'off',
+    'arrow-body-style': 'off',
     'import/named': 1,
+    'import/no-unresolved': 'off',
+    'import/prefer-default-export': 'off',
     'no-console': 'warn',
     'no-debugger': 'warn',
+    'prefer-template': 'off',
   },
   env: {
     es6: true,

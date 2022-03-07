@@ -5,6 +5,17 @@ module.exports = {
   extends: ['@chordcommerce', 'plugin:@typescript-eslint/recommended'],
   plugins: ['@typescript-eslint'],
   parser: '@typescript-eslint/parser',
+  settings: {
+    'import/extensions': ['.js', '.jsx', '.ts', '.tsx'],
+    'import/parsers': {
+      '@typescript-eslint/parser': ['.ts', '.tsx'],
+    },
+    'import/resolver': {
+      node: {
+        extensions: ['.js', '.jsx', '.ts', '.tsx'],
+      },
+    },
+  },
   rules: {
     '@typescript-eslint/ban-ts-comment': 'off',
     '@typescript-eslint/ban-types': 'off',
@@ -19,6 +30,16 @@ module.exports = {
       {
         varsIgnorePattern: '^_',
         argsIgnorePattern: '^_',
+      },
+    ],
+    'import/extensions': [
+      'error',
+      'ignorePackages',
+      {
+        js: 'never',
+        jsx: 'never',
+        ts: 'never',
+        tsx: 'never',
       },
     ],
   },

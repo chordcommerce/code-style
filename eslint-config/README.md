@@ -44,7 +44,7 @@ Extends: ([@chordcommerce](https://github.com/chordcommerce/code-style/blob/main
 
 ```json
 {
-  "extends": ["@chordcommerce/react"]
+  "extends": ["@chordcommerce/eslint-config/react"]
 }
 ```
 
@@ -69,7 +69,7 @@ $ yarn add -D typescript @typescript-eslint/parser @typescript-eslint/eslint-plu
 
 ```json
 {
-  "extends": ["@chordcommerce/typescript"]
+  "extends": ["@chordcommerce/eslint-config/typescript"]
 }
 ```
 
@@ -86,7 +86,7 @@ This must be present for this ruleset to work.
 
 ```json
 {
-  "extends": ["@chordcommerce/next"]
+  "extends": ["@chordcommerce/eslint-config/next"]
 }
 ```
 

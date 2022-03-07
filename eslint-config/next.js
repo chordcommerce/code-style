@@ -1,4 +1,6 @@
 /**
+ * Next.js specific eslint config.
+ *
  * @type {import('eslint').Linter.Config}
  */
 module.exports = {

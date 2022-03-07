@@ -50,7 +50,7 @@ Extends: ([@chordcommerce](https://github.com/chordcommerce/code-style/blob/main
 
 ### TypeScript
 
-Extends: ([@chordcommerce](https://github.com/chordcommerce/code-style/blob/main/eslint-config/index.js), [airbnb/hooks](https://www.npmjs.com/package/eslint-config-airbnb#eslint-config-airbnbhooks))
+Extends: ([@chordcommerce](https://github.com/chordcommerce/code-style/blob/main/eslint-config/index.js), [@typescript-eslint/recommended](https://github.com/typescript-eslint/typescript-eslint))
 
 #### Installation
 
@@ -75,4 +75,26 @@ $ yarn add -D typescript @typescript-eslint/parser @typescript-eslint/eslint-plu
 
 ### Next
 
-TBD
+Extends: ([@chordcommerce](https://github.com/chordcommerce/code-style/blob/main/eslint-config/index.js), [next](https://nextjs.org/docs/basic-features/eslint))
+
+#### Installation
+
+In order to use this in a Next.js project, you must have `next` installed, which will also install [eslint-config-next](https://www.npmjs.com/package/eslint-config-next).
+This must be present for this ruleset to work.
+
+#### Usage
+
+```json
+{
+  "extends": ["@chordcommerce/next"]
+}
+```
+
+### Extending & Tweaking
+
+ESLint allows for overriding and adding of rules in the project's ESLint config. **The rules added in the project's
+config file will always win in configuration resolution.** If you find a rule in our configurations that you don't like
+and won't work for your project, feel free to override it there.
+
+If you feel strongly enough about this rule, we welcome pull requests to this repo and would consider adopting it
+company wide.

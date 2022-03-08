@@ -4,7 +4,7 @@
  * @type {import('eslint').Linter.Config}
  */
 module.exports = {
-  extends: ['@chordcommerce', '@chordcommerce/react', 'next'],
+  extends: ['@chordcommerce/eslint-config/react', 'next'],
   env: {
     browser: true,
     es6: true,

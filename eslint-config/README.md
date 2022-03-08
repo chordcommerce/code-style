@@ -73,6 +73,18 @@ $ yarn add -D typescript @typescript-eslint/parser @typescript-eslint/eslint-plu
 }
 ```
 
+### Gatsby
+
+Extends: ([@chordcommerce/eslint-config/react](https://github.com/chordcommerce/code-style/blob/main/eslint-config/react.js))
+
+#### Usage
+
+```json
+{
+  "extends": ["@chordcommerce/eslint-config/gatsby"]
+}
+```
+
 ### Next
 
 Extends: ([@chordcommerce](https://github.com/chordcommerce/code-style/blob/main/eslint-config/index.js), [next](https://nextjs.org/docs/basic-features/eslint))

@@ -20,6 +20,9 @@ $ npx install-peerdeps --yarn --dev @chordcommerce/eslint-config
 $ npx install-peerdeps --yarn -x "-W" --dev @chordcommerce/eslint-config
 ```
 
+**This will install all the listed `peerDependencies`, you should audit your `package.json`, remove unneeded features,
+and then `npm install` / `yarn install` to clean them up.**
+
 ## Configuration Options
 
 This package exposes a variety of eslint configuration options that can be used for your specific use case.

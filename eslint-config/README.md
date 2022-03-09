@@ -105,7 +105,23 @@ This must be present for this ruleset to work.
 }
 ```
 
-### Extending & Tweaking
+### Segment Typewriter
+
+Extends: None
+
+[Segment's Typewriter](https://segment.com/docs/protocols/apis-and-extensions/typewriter/) auto generates code that
+doesn't pass our linting out of the box. Since the warnings are mostly begin, we provide `overrides` that allow it to
+pass out of the box.
+
+#### Installation
+
+```json
+{
+  "extends": ["@chordcommerce/eslint-config/typewriter"]
+}
+```
+
+## Extending & Tweaking
 
 ESLint allows for overriding and adding of rules in the project's ESLint config. **The rules added in the project's
 config file will always win in configuration resolution.** If you find a rule in our configurations that you don't like

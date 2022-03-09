@@ -14,9 +14,34 @@ module.exports = {
     'no-console': 'warn',
     'no-debugger': 'warn',
     'prefer-template': 'off',
+    'lines-between-class-members': [
+      'error',
+      'always',
+      { exceptAfterSingleLine: true },
+    ],
   },
   env: {
     es6: true,
     jest: true,
   },
+  overrides: [
+    {
+      files: ['*.json'],
+      rules: {
+        'no-unused-expressions': 'off',
+      },
+    },
+    {
+      files: ['*.test.*'],
+      rules: {
+        'no-console': 'off',
+      },
+    },
+    {
+      files: ['jest-preprocess.*'],
+      rules: {
+        'import/no-extraneous-dependencies': 'off',
+      },
+    },
+  ],
 }

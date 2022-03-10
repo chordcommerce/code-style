@@ -6,7 +6,6 @@ module.exports = {
   env: {
     browser: true,
     es6: true,
-    node: true,
     jest: true,
   },
   overrides: [
@@ -22,6 +21,9 @@ module.exports = {
       ],
       rules: {
         'no-console': 'off',
+      },
+      env: {
+        node: true,
       },
     },
   ],

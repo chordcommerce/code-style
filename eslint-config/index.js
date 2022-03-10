@@ -11,7 +11,7 @@ module.exports = {
     'import/named': 1,
     'import/no-unresolved': 'off',
     'import/prefer-default-export': 'off',
-    'no-console': 'warn',
+    'no-console': ['warn', { allow: ['warn', 'error'] }],
     'no-debugger': 'warn',
     'prefer-template': 'off',
     'lines-between-class-members': [
@@ -19,6 +19,7 @@ module.exports = {
       'always',
       { exceptAfterSingleLine: true },
     ],
+    'object-shorthand': 'off',
   },
   env: {
     es6: true,

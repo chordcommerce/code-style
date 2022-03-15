@@ -4,6 +4,15 @@ Chord Commerce's shared [Prettier](https://prettier.io/) configuration.
 
 ## Installation
 
+First, you must configure your package manager to use Chord's Github Packages repository. You will need a `~/.npmrc`
+with the following line:
+
+```
+@chordcommerce:registry=https://npm.pkg.github.com
+```
+
+Then, you can install the package like normal.
+
 ```bash
 $ npm install -D @chordcommerce/prettier
 $ yarn add -D @chordcommerce/prettier

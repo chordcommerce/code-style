@@ -1,6 +1,15 @@
 # @chordcommerce/eslint-config
 
+Chord's shared configurations for [ESLint](https://eslint.org/).
+
 ## Installation
+
+First, you must configure your package manager to use Chord's Github Packages repository. You will need a `~/.npmrc`
+with the following line:
+
+```
+@chordcommerce:registry=https://npm.pkg.github.com
+```
 
 Following patterns in other eslint configs and given the disprate nature of codebases, all of the dependencies of this
 package are listed as peer dependencies. This allows for upgrading of individual dependencies without running into

@@ -11,6 +11,19 @@ module.exports = {
     'import/named': 1,
     'import/no-unresolved': 'off',
     'import/prefer-default-export': 'off',
+    'import/no-extraneous-dependencies': [
+      'error',
+      {
+        devDependencies: [
+          '**/*.test.*',
+          '**/test-utils/**/*',
+          '**/test-utils/*',
+          '**/setup-test*',
+          '**/*.spec.*',
+          '**/jest*',
+        ],
+      },
+    ],
     'no-console': ['warn', { allow: ['warn', 'error'] }],
     'no-debugger': 'warn',
     'prefer-template': 'off',
@@ -20,6 +33,10 @@ module.exports = {
       { exceptAfterSingleLine: true },
     ],
     'object-shorthand': 'off',
+    'no-plusplus': 'off',
+  },
+  parserOptions: {
+    ecmaVersion: 2022,
   },
   env: {
     es6: true,
